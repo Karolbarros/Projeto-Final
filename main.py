@@ -1,6 +1,6 @@
 
 from fases import FaseInicial
-from util import JogoUtil
+from Until import JogoUtil
 
 class Jogo:
     def __init__(self):

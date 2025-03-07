@@ -1,6 +1,6 @@
 
 from base import Fase
-from util import JogoUtil
+from Until import JogoUtil
 
 # FASE INICIAL – Escolha entre o caminho iluminado (que leva ao sábio) ou o sombrio.
 class FaseInicial(Fase):
