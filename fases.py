@@ -58,7 +58,7 @@ class Parte2(Fase):
 
         if escolha == 0:
             JogoUtil.print_slow("Você aceita a chave dourada.")
-            JogoUtil.adicionar_item("Chave dourada")
+            JogoUtil.adicionar_item("Chave dourada")  # Adicionando a chave ao inventário
             return EscolhaDestino()
         else:
             JogoUtil.print_slow("Você recusa a chave dourada.")
